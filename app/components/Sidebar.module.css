@@ -1,0 +1,37 @@
+/* Sidebar.module.css */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #2c3e50;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebarTitle {
+    color: #ecf0f1;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.sidebarList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebarItem {
+    margin-bottom: 15px;
+}
+
+.sidebarItem a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebarItem a:hover {
+    color: #f39c12;
+}

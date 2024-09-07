@@ -1,0 +1,82 @@
+/* settings.css */
+.settings {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .settings h1 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .setting-group {
+    margin-bottom: 20px;
+  }
+  
+  .setting-group label {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .setting-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: border-color 0.3s;
+  }
+  
+  .setting-group select:focus {
+    border-color: #007bff;
+  }
+  
+  .settings-footer {
+    text-align: center;
+  }
+  
+  .settings-footer button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .settings-footer button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .settings {
+      padding: 20px;
+    }
+  
+    .settings h1 {
+      font-size: 1.5rem;
+    }
+  
+    .setting-group select {
+      font-size: 0.9rem;
+    }
+  
+    .settings-footer button {
+      font-size: 0.9rem;
+      padding: 10px 20px;
+    }
+  }
+  
